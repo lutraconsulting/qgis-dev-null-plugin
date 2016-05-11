@@ -6,5 +6,7 @@ qgisMinimumVersion=2.0
 author=Peter Petrik for Lutra Consulting
 email=zilolv@gmail.com
 about=Dummy plugin to test github API and exception triggering
+qgisMinimumVersion=2.0
+qgisMaximumVersion=2.99
 
 tracker=https://github.com/lutraconsulting/qgis-dev-null-plugin/issues
