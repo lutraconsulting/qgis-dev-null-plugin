@@ -10,3 +10,4 @@ qgisMinimumVersion=2.0
 qgisMaximumVersion=2.99
 homepage=https://github.com/lutraconsulting/qgis-dev-null-plugin
 tracker=https://github.com/lutraconsulting/qgis-dev-null-plugin/issues
+repository=https://github.com/lutraconsulting/qgis-dev-null-plugin
