@@ -9,14 +9,16 @@
 # (at your option) any later version.
 #---------------------------------------------------------------------
 
-from PyQt4.QtGui import *
-from PyQt4.QtCore import *
+from PyQt5.QtWidgets import *
+
 
 def classFactory(iface):
     return DevNullPlugin(iface)
 
+
 class DevNullError(Exception):
     pass
+
 
 class DevNullPlugin:
     def __init__(self, iface):
@@ -32,7 +34,6 @@ class DevNullPlugin:
         del self.action
 
     def triggerError(self):
-
         string_var = "Hello World"
         long_string_var = r"""
 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
